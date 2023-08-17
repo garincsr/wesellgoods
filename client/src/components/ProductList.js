@@ -51,7 +51,13 @@ const ProductList = () => {
 
               <div className="card-content">
                 <div className="media">
-                  <div className="media-content p-5" style={{backgroundColor:"lightblue", borderRadius:"2rem"}}>
+                  <div
+                    className="media-content p-5"
+                    style={{
+                      backgroundColor: "lightblue",
+                      borderRadius: "2rem",
+                    }}
+                  >
                     <p className="title is-4">{product.name}</p>
                   </div>
                 </div>
@@ -62,7 +68,7 @@ const ProductList = () => {
                 </p>
               </div>
 
-              <footer className="card-footer">              
+              <footer className="card-footer">
                 <p class="card-footer-item">
                   <span>
                     Selling Price{" "}
